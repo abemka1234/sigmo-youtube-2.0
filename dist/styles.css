@@ -1,4 +1,8 @@
-.play_button{
-    border-style: none;
-    cursor: pointer;
+.player_buttons{
+    background-color: black;
+}
+.panel_button{
+    background-color: transparent;
+    color: white;
+    border-color:#fff;
 }
