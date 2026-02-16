@@ -4,5 +4,5 @@
 .panel_button{
     background-color: transparent;
     color: white;
-    border-color:#fff;
+    border: none;
 }
