@@ -1,11 +1,21 @@
 .player_buttons{
     background-color: black;
+    flex-grow:0;
+    width: 800px;
 }
 .panel_button{
     background-color: transparent;
     color: white;
     border: none;
 }
-#player{
+.player{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    width: 800px; 
+    height: 600px;
+}
+.js-video-container{
+    flex-grow: 1;
+    width: 100%; height: 100%
 }
