@@ -2,6 +2,8 @@
     background-color: black;
     flex-grow:0;
     width: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 .panel_button{
     background-color: transparent;
@@ -24,4 +26,7 @@
 }
 .fa{
     font-size: 18px;
+}
+.right-side{
+    padding-right:10px;
 }
