@@ -9,9 +9,16 @@
     background-color: transparent;
     color: white;
     border: none;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     font-size: 20px;
+    padding-top: 3px;
+    margin-right: 4px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+.panel_button:last-child{
+    margin-right:0px;
 }
 .player{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -27,3 +34,4 @@
 .space{
     flex-grow:1;
 }
+
