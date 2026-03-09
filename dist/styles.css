@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .player_buttons{
     background-color: black;
     flex-grow:0;
@@ -12,10 +13,9 @@
     height: 30px;
     width: 30px;
     font-size: 20px;
-    padding-top: 3px;
-    margin-right: 4px;
-    margin-left: 1px;
-    margin-bottom: 2px;
+    padding-left: 1px;
+    padding-top: 7px;
+    margin-right: 6px;
 }
 .panel_button:last-child{
     margin-right:0px;
@@ -31,7 +31,14 @@
     flex-grow: 1;
     width: 100%;
 }
-.space{
+.panel-progress-bar{
     flex-grow:1;
+}
+.time-lable{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-right:10px;
+    align-self:center;
+    padding-top: 7px;
 }
 
