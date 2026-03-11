@@ -42,3 +42,25 @@
     padding-top: 7px;
 }
 
+.progress-bar-filling{
+    background-color: red;
+    width: 99.0613%;
+    border-radius: 6px;
+    height: 5px;
+}
+
+.panel-progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.progress-bar-circle{
+    height:8px;
+    width:8px;
+    border-radius: 50%;
+    background-color: red;
+    border: 3px solid white;
+    margin-left:-4px;
+}
